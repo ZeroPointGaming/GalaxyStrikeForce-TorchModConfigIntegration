@@ -1,0 +1,14 @@
+C:\Users\Redaj\Documents\Visual Studio 2017\Projects\[GSF] Space Engineers Weapon Template Manager\[GSF] Space Engineers Weapon Template Manager\bin\Debug\[GSF] Space Engineers Weapon Template Manager.exe.config
+C:\Users\Redaj\Documents\Visual Studio 2017\Projects\[GSF] Space Engineers Weapon Template Manager\[GSF] Space Engineers Weapon Template Manager\bin\Debug\[GSF] Space Engineers Weapon Template Manager.exe
+C:\Users\Redaj\Documents\Visual Studio 2017\Projects\[GSF] Space Engineers Weapon Template Manager\[GSF] Space Engineers Weapon Template Manager\bin\Debug\[GSF] Space Engineers Weapon Template Manager.pdb
+C:\Users\Redaj\Documents\Visual Studio 2017\Projects\[GSF] Space Engineers Weapon Template Manager\[GSF] Space Engineers Weapon Template Manager\bin\Debug\[GSF] Space Engineers Weapon Template Manager.xml
+C:\Users\Redaj\Documents\Visual Studio 2017\Projects\[GSF] Space Engineers Weapon Template Manager\[GSF] Space Engineers Weapon Template Manager\bin\Debug\MetroFramework.Design.dll
+C:\Users\Redaj\Documents\Visual Studio 2017\Projects\[GSF] Space Engineers Weapon Template Manager\[GSF] Space Engineers Weapon Template Manager\bin\Debug\MetroFramework.dll
+C:\Users\Redaj\Documents\Visual Studio 2017\Projects\[GSF] Space Engineers Weapon Template Manager\[GSF] Space Engineers Weapon Template Manager\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Redaj\Documents\Visual Studio 2017\Projects\[GSF] Space Engineers Weapon Template Manager\[GSF] Space Engineers Weapon Template Manager\obj\Debug\[GSF] Space Engineers Weapon Template Manager.vbprojResolveAssemblyReference.cache
+C:\Users\Redaj\Documents\Visual Studio 2017\Projects\[GSF] Space Engineers Weapon Template Manager\[GSF] Space Engineers Weapon Template Manager\obj\Debug\WindowsApp1.Form1.resources
+C:\Users\Redaj\Documents\Visual Studio 2017\Projects\[GSF] Space Engineers Weapon Template Manager\[GSF] Space Engineers Weapon Template Manager\obj\Debug\WindowsApp1.Resources.resources
+C:\Users\Redaj\Documents\Visual Studio 2017\Projects\[GSF] Space Engineers Weapon Template Manager\[GSF] Space Engineers Weapon Template Manager\obj\Debug\[GSF] Space Engineers Weapon Template Manager.vbproj.GenerateResource.Cache
+C:\Users\Redaj\Documents\Visual Studio 2017\Projects\[GSF] Space Engineers Weapon Template Manager\[GSF] Space Engineers Weapon Template Manager\obj\Debug\[GSF] Space Engineers Weapon Template Manager.exe
+C:\Users\Redaj\Documents\Visual Studio 2017\Projects\[GSF] Space Engineers Weapon Template Manager\[GSF] Space Engineers Weapon Template Manager\obj\Debug\[GSF] Space Engineers Weapon Template Manager.xml
+C:\Users\Redaj\Documents\Visual Studio 2017\Projects\[GSF] Space Engineers Weapon Template Manager\[GSF] Space Engineers Weapon Template Manager\obj\Debug\[GSF] Space Engineers Weapon Template Manager.pdb
