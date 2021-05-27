@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4E1FC92D-22A1-4E3A-B2D4-2B1BA934E406}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GSF.GSFWeapons</RootNamespace>
+    <AssemblyName>GSF.GSFWeapons</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Sandbox.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\DedicatedServer64\Sandbox.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Sandbox.Game">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\DedicatedServer64\Sandbox.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="Sandbox.Graphics">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\DedicatedServer64\Sandbox.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="SpaceEngineers.Game">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\DedicatedServer64\SpaceEngineers.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="SpaceEngineers.ObjectBuilders">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\DedicatedServer64\SpaceEngineers.ObjectBuilders.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Reflection.Metadata, Version=1.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\DedicatedServer64\System.Reflection.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VRage">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\DedicatedServer64\VRage.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Ansel">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\DedicatedServer64\VRage.Ansel.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Audio">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\DedicatedServer64\VRage.Audio.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Game, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\DedicatedServer64\VRage.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Game.XmlSerializers, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\DedicatedServer64\VRage.Game.XmlSerializers.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Input">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\DedicatedServer64\VRage.Input.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Library">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\DedicatedServer64\VRage.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Math">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\VRage.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Native">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\DedicatedServer64\VRage.Native.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Render">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\DedicatedServer64\VRage.Render.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Render11">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\DedicatedServer64\VRage.Render11.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Scripting">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\DedicatedServer64\VRage.Scripting.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BeamWeaponConfigInfo.cs" />
+    <Compile Include="CheckBox.cs" />
+    <Compile Include="ColorSlider.cs" />
+    <Compile Include="GSFControls.cs" />
+    <Compile Include="GSFWeaponManagers.cs" />
+    <Compile Include="GSF_Weapon_Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSF_Weapon_Manager.Designer.cs">
+      <DependentUpon>GSF_Weapon_Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MissileTurret.cs" />
+    <Compile Include="Logging.cs" />
+    <Compile Include="Slider.cs" />
+    <Compile Include="Test2.cs" />
+    <Compile Include="Weapon_Managers\GSF_Aegis_Large_Beam_Base_Manager.cs" />
+    <Compile Include="Weapon_Managers\GSF_Aegis_MediumBeam_Base_Manager.cs" />
+    <Compile Include="Weapon_Managers\GSF_Aegis_Small_Beam_Base.cs" />
+    <Compile Include="Weapon_Managers\GSF_Interior_Pulse_Manager.cs" />
+    <Compile Include="Weapon_Managers\GSF_Large_Dual_Beam_Manager.cs" />
+    <Compile Include="Weapon_Managers\GSF_Large_Dual_Pulse_Manager.cs" />
+    <Compile Include="Weapon_Managers\GSF_Large_Static_Large_Beam_Manager.cs" />
+    <Compile Include="Weapon_Managers\GSF_Large_Static_Small_Beam_Manager.cs" />
+    <Compile Include="Weapon_Managers\GSF_Medium_Pulse_Small_Manager.cs" />
+    <Compile Include="Weapon_Managers\GSF_Medium_Quad_Beam_Manager.cs" />
+    <Compile Include="Weapon_Managers\GSF_Medium_Static_Pulse_Large_Manager.cs" />
+    <Compile Include="Weapon_Managers\GSF_Medium_Static_Pulse_Small_Manager.cs" />
+    <Compile Include="Weapon_Managers\GSF_Small_Beam_Manager.cs" />
+    <Compile Include="Weapon_Managers\GSF_Small_Pulse_Manager.cs" />
+    <Compile Include="Weapon_Managers\GSF_Weapon_Template.cs" />
+    <Compile Include="Weapon_Managers\GSF_S_Small_Beam_Static_Manager.cs" />
+    <Compile Include="Weapon_Managers\GSF_Medium_Pulse_Manager.cs" />
+    <Compile Include="Weapon_Managers\GSF_XLarge_Dual_Pulse_Manager.cs" />
+    <Compile Include="Weapon_Managers\GSF_XL_Giga_Beam_Manager.cs" />
+    <Compile Include="Weapon_Managers\GSF_XXLarge_Planitary_Giga_Beam_Manager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GSF_Weapon_Manager.resx">
+      <DependentUpon>GSF_Weapon_Manager.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
